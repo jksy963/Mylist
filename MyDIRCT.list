@@ -1,5 +1,6 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-
+DOMAIN-SUFFIX,tv.micu.hk
+DOMAIN-SUFFIX,tv1.micu.hk
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,appstorrent.ru

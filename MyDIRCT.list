@@ -1,10 +1,6 @@
 #自定义直连
 #Emby
 DOMAIN-SUFFIX,micu.hk
-DOMAIN-SUFFIX,tv.micu.hk
-DOMAIN-SUFFIX,tv1.micu.hk
-DOMAIN-SUFFIX,v2.micu.hk
-DOMAIN-SUFFIX,v.micu.hk
 
 #网站
 DOMAIN-SUFFIX,appstorrent.ru

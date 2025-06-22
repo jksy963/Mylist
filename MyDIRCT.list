@@ -1,8 +1,6 @@
 #自定义直连
 #Emby
 DOMAIN-SUFFIX,micu.hk
-DOMAIN-KEYWORD,micu
-DOMAIN,cdn.micu.hk
 
 #网站
 DOMAIN-SUFFIX,appstorrent.ru

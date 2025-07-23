@@ -1,8 +1,4 @@
 #自定义直连
-DOMAIN-SUFFIX,soop.com
-DOMAIN-SUFFIX,sooplive.com
-DOMAIN-SUFFIX,sooplive.co.kr
-
 #Emby
 DOMAIN-SUFFIX,micu.hk
 

@@ -10,3 +10,8 @@ DOMAIN-SUFFIX,avast.com
 #Eagle
 DOMAIN-SUFFIX,eagle.cool
 
+#头条
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,snssdk.com

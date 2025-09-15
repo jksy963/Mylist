@@ -1,4 +1,9 @@
 #自定义直连
+
+#NAN-US EMBY
+DOMAIN-SUFFIX,nanflix.net
+DOMAIN-SUFFIX,us.nanflix.net
+
 #adobe
 DOMAIN,lcs-cops.adobe.io
 #douyin

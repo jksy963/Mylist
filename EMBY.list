@@ -1,6 +1,6 @@
 # HKBEUP影视服
 DOMAIN-SUFFIX,beupisp.com
-DOMAIN-SUFFIX,e.beupisp.com
+DOMAIN-SUFFIX,e.beupisp.com:18880
 
 # 非越媒体
 DOMAIN-SUFFIX,z.sfcj.org

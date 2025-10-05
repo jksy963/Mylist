@@ -1,8 +1,8 @@
-#HKBEUP影视服
+# HKBEUP影视服
 DOMAIN-SUFFIX,beupisp.com
 DOMAIN-SUFFIX,e.beupisp.com
 
-#非越媒体
+# 非越媒体
 DOMAIN-SUFFIX,z.sfcj.org
 DOMAIN-SUFFIX,jg.sfcj.org
 DOMAIN-SUFFIX,ju.sfcj.org
@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,jg6.sfcj.org
 DOMAIN-SUFFIX,v6.sfcj.org
 DOMAIN-SUFFIX,cf.sfcj.org
 
-#终点站
+# 终点站
 DOMAIN-SUFFIX,pub1.emby.wtf
 DOMAIN-SUFFIX,pub1.term.wtf
 DOMAIN-SUFFIX,pub2.emby.wtf

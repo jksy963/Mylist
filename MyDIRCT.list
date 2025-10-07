@@ -4,6 +4,12 @@
 DOMAIN-SUFFIX,nanflix.net
 DOMAIN-SUFFIX,us.nanflix.net
 
+#临时网盘
+DOMAIN-SUFFIX,wormhole.app
+DOMAIN-SUFFIX,filebin.net
+DOMAIN-SUFFIX,sharrr.com
+DOMAIN-SUFFIX,buzzheavier.com
+
 #adobe
 DOMAIN,lcs-cops.adobe.io
 #douyin

@@ -61,6 +61,9 @@ DOMAIN-SUFFIX,zjcdn.com
 #Emby
 DOMAIN-SUFFIX,micu.hk
 
+# 域名关键字匹配
+DOMAIN-KEYWORD,baidu
+
 #网站
 DOMAIN-SUFFIX,appstorrent.ru
 DOMAIN-SUFFIX,free.apprcn.com
@@ -68,3 +71,13 @@ DOMAIN-SUFFIX,avast.com
 
 #Eagle
 DOMAIN-SUFFIX,eagle.cool
+
+# Xunlei 迅雷
+DOMAIN-SUFFIX,00cdn.com
+DOMAIN-SUFFIX,88cdn.com
+DOMAIN-SUFFIX,kanimg.com
+DOMAIN-SUFFIX,kankan.com
+DOMAIN-SUFFIX,p2cdn.com
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,thundercdn.com
+DOMAIN-SUFFIX,xunlei.com

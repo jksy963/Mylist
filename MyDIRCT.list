@@ -72,6 +72,28 @@ DOMAIN-SUFFIX,avast.com
 #Eagle
 DOMAIN-SUFFIX,eagle.cool
 
+#米家智能家居
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,home.mi.com
+DOMAIN-SUFFIX,api.io.mi.com
+DOMAIN-SUFFIX,cn.io.mi.com
+DOMAIN-SUFFIX,micloud.xiaomi.net
+DOMAIN-SUFFIX,mihome.app
+DOMAIN-SUFFIX,miwifi.com
+DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,xiaomiyoupin.com
+DOMAIN-SUFFIX,miot-spec.org
+DOMAIN-SUFFIX,miot-store.com
+DOMAIN-SUFFIX,miotcdn.com
+DOMAIN-SUFFIX,miotglobal.com
+DOMAIN-SUFFIX,push.micloud.xiaomi.net
+DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,log.miui.com
+DOMAIN-SUFFIX,ai.xiaomi.com
+DOMAIN-SUFFIX,voice.ai.xiaomi.com
+
 # Xunlei 迅雷
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,88cdn.com

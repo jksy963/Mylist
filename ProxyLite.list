@@ -25,3 +25,11 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
+
+# 小米国际服务器（国外米家 / Google Home 集成）
+DOMAIN-SUFFIX,io.mi.com
+DOMAIN-SUFFIX,glb.io.mi.com
+DOMAIN-SUFFIX,sgp.io.mi.com
+DOMAIN-SUFFIX,us.io.mi.com
+DOMAIN-SUFFIX,tw.io.mi.com
+DOMAIN-SUFFIX,eu.io.mi.com

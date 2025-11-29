@@ -1,12 +1,40 @@
 #自定义直连
-#douyin
-DOMAIN-SUFFIX:douyin.com
-DOMAIN-SUFFIX:snssdk.com
-DOMAIN-SUFFIX:byteimg.com
-DOMAIN-SUFFIX:bytedns.net
-DOMAIN-SUFFIX:pstatp.com
-DOMAIN-SUFFIX:ibytedtos.com
 
+
+# 抖音商城 / 抖音电商主域名
+DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyinec.com
+DOMAIN-SUFFIX,douyinseller.com
+DOMAIN-SUFFIX,douyinecommerce.com
+
+# 字节跳动电商供应链、数据、接口
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,bytedanceapi.com
+DOMAIN-SUFFIX,toutiaoimg.com
+DOMAIN-SUFFIX,toutiaostatic.com
+
+# 抖音商城常用接口（含支付、店铺、购物车）
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,boudu.com
+DOMAIN-SUFFIX,volccdn.com
+DOMAIN-SUFFIX,volcengineapi.com
+DOMAIN-SUFFIX,bdurl.net
+
+# 图片资源（商品图 / 物流图）
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,bytedns.net
+DOMAIN-SUFFIX,douyinpic.com
+
+# 抖音直播带货链路（如有直播电商）
+DOMAIN-SUFFIX,volcanoengine.com
+DOMAIN-SUFFIX,ztvol.com
 #临时网盘
 DOMAIN-SUFFIX,wormhole.app
 DOMAIN-SUFFIX,filebin.net

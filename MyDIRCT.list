@@ -1,11 +1,11 @@
 #自定义直连
 #douyin
-domain_suffix: douyin.com
-domain_suffix: snssdk.com
-domain_suffix: byteimg.com
-domain_suffix: bytedns.net
-domain_suffix: pstatp.com
-domain_suffix: ibytedtos.com
+DOMAIN-SUFFIX:douyin.com
+DOMAIN-SUFFIX:snssdk.com
+DOMAIN-SUFFIX:byteimg.com
+DOMAIN-SUFFIX:bytedns.net
+DOMAIN-SUFFIX:pstatp.com
+DOMAIN-SUFFIX:ibytedtos.com
 
 #临时网盘
 DOMAIN-SUFFIX,wormhole.app

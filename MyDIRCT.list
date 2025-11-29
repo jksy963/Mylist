@@ -1,14 +1,11 @@
 #自定义直连
 #douyin
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,bytecdn.cn
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,iesdouyin.com
-DOMAIN-SUFFIX,douyinmall.com
-DOMAIN-SUFFIX,bytedanceapi.com
-DOMAIN-SUFFIX,douyin.com
+domain_suffix: douyin.com
+domain_suffix: snssdk.com
+domain_suffix: byteimg.com
+domain_suffix: bytedns.net
+domain_suffix: pstatp.com
+domain_suffix: ibytedtos.com
 
 #临时网盘
 DOMAIN-SUFFIX,wormhole.app

@@ -32,48 +32,48 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,cursor.sh
 
 # > Dify AI
-  - DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,dify.ai
 
 # > Google AI (Gemini/Bard)
-  - DOMAIN,ai.google.dev
-  - DOMAIN,makersuite.google.com
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,apis.google.com
-  - DOMAIN-SUFFIX,clients6.google.com
-  - DOMAIN-SUFFIX,clients4.google.com
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,colab.google.com
-  - DOMAIN-SUFFIX,colab.research.google.com
-  - DOMAIN-SUFFIX,developerprofiles.google.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,colab.google.com
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,developerprofiles.google.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
 # > JetBrains AI
-  - DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.ai
   
 # > Meta
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
 
 
 # > Notebooklm
-  - DOMAIN-SUFFIX,notebooklm.google.com
-  - DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
 
 
 # > Microsoft Copilot
-  - DOMAIN,api.msn.com
-  - DOMAIN,assets.msn.com
-  - DOMAIN,copilot.microsoft.com
-  - DOMAIN,gateway.bingviz.microsoft.net
-  - DOMAIN,gateway.bingviz.microsoftapp.net
-  - DOMAIN,in.appcenter.ms
-  - DOMAIN,location.microsoft.com
-  - DOMAIN,odc.officeapps.live.com
-  - DOMAIN,r.bing.com
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,r.bing.com
 DOMAIN,self.events.data.microsoft.com
 DOMAIN,services.bingapis.com
 DOMAIN,sydney.bing.com

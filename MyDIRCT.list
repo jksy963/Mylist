@@ -1,4 +1,73 @@
 #自定义直连
+# ── 华泰证券 · 涨乐财富通 ────────────────────────────────────
+DOMAIN-SUFFIX,htsc.com.cn
+DOMAIN-SUFFIX,hithink.com
+DOMAIN-SUFFIX,hscloud.cn
+DOMAIN-SUFFIX,hquote.htsc.com.cn
+# ── 东方财富 · 天天基金 ──────────────────────────────────────
+DOMAIN-SUFFIX,eastmoney.com
+DOMAIN-SUFFIX,em.com.cn
+DOMAIN-SUFFIX,fund.eastmoney.com
+DOMAIN-SUFFIX,guba.eastmoney.com
+DOMAIN-SUFFIX,data.eastmoney.com
+DOMAIN-SUFFIX,push2.eastmoney.com
+DOMAIN-SUFFIX,nf.dfcfw.com
+# ── 同花顺 ───────────────────────────────────────────────────
+DOMAIN-SUFFIX,10jqka.com.cn
+DOMAIN-SUFFIX,ths.com.cn
+DOMAIN-SUFFIX,stockstar.com
+DOMAIN-SUFFIX,mbox.10jqka.com.cn
+# ── 国泰君安 · 君弘 ──────────────────────────────────────────
+DOMAIN-SUFFIX,gjzq.com.cn
+DOMAIN-SUFFIX,gtja.com
+# ── 中信证券 ─────────────────────────────────────────────────
+DOMAIN-SUFFIX,cs.ecitic.com
+DOMAIN-SUFFIX,citics.com
+DOMAIN-SUFFIX,citic.com
+# ── 招商证券 ─────────────────────────────────────────────────
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmschina.com
+# ── 中国平安 · 平安证券 ──────────────────────────────────────
+DOMAIN-SUFFIX,pingan.com.cn
+DOMAIN-SUFFIX,pa18.com
+# ── 申万宏源 ─────────────────────────────────────────────────
+DOMAIN-SUFFIX,swsc.com.cn
+DOMAIN-SUFFIX,swhysc.com
+# ── 广发证券 · 易淘金 ────────────────────────────────────────
+DOMAIN-SUFFIX,gf.com.cn
+DOMAIN-SUFFIX,gfzq.com.cn
+# ── 海通证券 ─────────────────────────────────────────────────
+DOMAIN-SUFFIX,haitong.com
+DOMAIN-SUFFIX,htsec.com
+# ── 兴业证券 ─────────────────────────────────────────────────
+DOMAIN-SUFFIX,xyzq.com.cn
+DOMAIN-SUFFIX,xzsec.com
+# ── 中金公司 · CICC ──────────────────────────────────────────
+DOMAIN-SUFFIX,cicc.com.cn
+DOMAIN-SUFFIX,ciccfinance.com
+# ── 行情数据源（通用）────────────────────────────────────────
+# 上海证券交易所
+DOMAIN-SUFFIX,sse.com.cn
+# 深圳证券交易所
+DOMAIN-SUFFIX,szse.cn
+# 中国证监会
+DOMAIN-SUFFIX,csrc.gov.cn
+# 上海黄金交易所
+DOMAIN-SUFFIX,sge.com.cn
+# 中国外汇交易中心
+DOMAIN-SUFFIX,chinamoney.com.cn
+# Wind 资讯
+DOMAIN-SUFFIX,wind.com.cn
+DOMAIN-SUFFIX,windquant.com
+# Choice 数据（东方财富）
+DOMAIN-SUFFIX,choicedata.com.cn
+# 雪球
+DOMAIN-SUFFIX,xueqiu.com
+DOMAIN-SUFFIX,xqimg.com
+# 集思录（可转债、ETF）
+DOMAIN-SUFFIX,jisilu.cn
+# 理杏仁（量化）
+DOMAIN-SUFFIX,lixinger.com
 
 # 抖音/直播相关 CDN（补充直连，防止走代理）
 DOMAIN-SUFFIX,douyincdn.com,全球直连

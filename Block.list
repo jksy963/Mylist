@@ -1,1 +1,15 @@
 DOMAIN-SUFFIX,adobe.io
+
+# 创维/酷开 广告及日志上报
+DOMAIN-SUFFIX,skysrt.com
+DOMAIN-SUFFIX,coocaa.com
+DOMAIN-SUFFIX,coocaatv.com
+DOMAIN-KEYWORD,logstat
+DOMAIN-KEYWORD,registat
+
+# 小米遥测与广告
+DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN-SUFFIX,log.trak.xiaomi.com
+DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,data.mistat.xiaomi.com
+

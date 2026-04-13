@@ -1,3 +1,7 @@
+# Block.list — 广告、追踪、遥测拦截规则
+# 格式：Clash classical（每行一条规则，支持 DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD / IP-CIDR）
+# 更新：手动维护
+
 DOMAIN-SUFFIX,adobe.io
 
 # 可疑 / 恶意域名（来自日志分析）──────────────────────

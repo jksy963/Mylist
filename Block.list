@@ -1,57 +1,62 @@
+# ============================================================
 # Block.list — 广告、追踪、遥测拦截规则
-# 格式：Clash classical（每行一条规则，支持 DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD / IP-CIDR）
-# 更新：手动维护
+# 仓库：https://github.com/jksy963/Mylist
+# 格式：Clash classical（DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD）
+# 更新：2026-04-14
+# ============================================================
 
-DOMAIN-SUFFIX,adobe.io
-
-# 可疑 / 恶意域名（来自日志分析）──────────────────────
+# ── 日志分析发现的可疑 / 恶意域名 ──────────────────────────
 DOMAIN,www.c0o1itlio0.com
 DOMAIN,www.w7l0a.top
 
-# 创维电视遥测（不影响 IPTV 播放）────────────────────
+# ── 创维电视遥测（不影响 IPTV 播放）────────────────────────
 DOMAIN-SUFFIX,bytelog.skysrt.com
 
-# 小米 MIUI 广告与追踪 ────────────────────────────────
-# 小米广告推荐服务
+# ── 国家电网软件更新（wpsupdate.sgcc.com.cn 持续请求噪音）──
+DOMAIN-SUFFIX,sgcc.com.cn
+
+# ── 新浪旧版内网 API（解析到内网 IP 无法访问）───────────────
+DOMAIN,int.dpool.sina.com.cn
+
+# ── 小米 MIUI 广告与追踪 ────────────────────────────────────
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
-# MIUI 系统追踪 / 遥测
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,new.tracking.miui.com
 DOMAIN-SUFFIX,log.miui.com
 DOMAIN-SUFFIX,logservice.miui.com
 DOMAIN-SUFFIX,log2.miui.com
 DOMAIN-SUFFIX,miui-analytics.xiaomi.com
-# 小米推送广告
 DOMAIN-SUFFIX,ad1.xiaomi.com
 DOMAIN-SUFFIX,ad.mi.com
 DOMAIN-SUFFIX,mis.dedicated.xiaomi.com
+DOMAIN-SUFFIX,report.log.miui.com
+DOMAIN-SUFFIX,dig.miui.com
+DOMAIN-SUFFIX,stlog.data.xiaomi.com
 
-# 华为广告与遥测 ──────────────────────────────────────
-DOMAIN-SUFFIX,device-metrics-us.amazon.com
+# ── 华为广告与遥测 ──────────────────────────────────────────
 DOMAIN-SUFFIX,logservice.hicloud.com
 DOMAIN-SUFFIX,log.hicloud.com
 DOMAIN-SUFFIX,metrics.data.hicloud.com
-DOMAIN-SUFFIX,privacy.cloud.huawei.com
-# 华为广告服务
 DOMAIN-SUFFIX,ads.huawei.com
-DOMAIN-SUFFIX,adroi.cn
 DOMAIN-SUFFIX,adg.hicloud.com
+DOMAIN-SUFFIX,adroi.cn
 
-# OPPO / OnePlus 广告追踪 ─────────────────────────────
+# ── OPPO / OnePlus / realme 广告追踪 ────────────────────────
 DOMAIN-SUFFIX,ck.coloros.com
 DOMAIN-SUFFIX,log.push.oppomobile.com
 DOMAIN-SUFFIX,bdp.oppomobile.com
 DOMAIN-SUFFIX,analytics.coloros.com
+DOMAIN-SUFFIX,track.heytap.com
 
-# ── 六、vivo 广告追踪 ────────────────────────────────────────
-DOMAIN-SUFFIX,push.vivo.com.cn
+# ── vivo 广告追踪 ────────────────────────────────────────────
 DOMAIN-SUFFIX,tracking.vivo.com.cn
 DOMAIN-SUFFIX,sdkconfig.ad.vivo.com.cn
+DOMAIN-SUFFIX,logservice.vivo.com.cn
 
-# 百度广告追踪（非搜索引擎域名）──────────────────────
+# ── 百度广告追踪（非搜索核心域名）──────────────────────────
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,j.baidu.com
@@ -60,22 +65,50 @@ DOMAIN-SUFFIX,hmma.baidu.com
 DOMAIN-SUFFIX,pv.baidu.com
 DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN-SUFFIX,click.baidu.com
+DOMAIN-SUFFIX,sclick.baidu.com
+DOMAIN-SUFFIX,union.baidu.com
 
-# 通用广告 SDK 域名 ────────────────────────────────────
+# ── 腾讯广告追踪（非 QQ/微信核心）──────────────────────────
+DOMAIN-SUFFIX,adq.qq.com
+DOMAIN-SUFFIX,ams.woa.com
+DOMAIN-SUFFIX,gdt.qq.com
+
+# ── 字节跳动 / 抖音广告埋点（不含正常功能域名）────────────
+DOMAIN-SUFFIX,ad.snssdk.com
+DOMAIN-SUFFIX,ad.toutiao.com
+DOMAIN-SUFFIX,adv.snssdk.com
+DOMAIN-SUFFIX,log-collect.pangolin.snssdk.com
+DOMAIN-SUFFIX,pgc-ad.toutiao.com
+DOMAIN-SUFFIX,mon.snssdk.com
+
+# ── 阿里巴巴广告追踪 ────────────────────────────────────────
+DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,alimama.com
+DOMAIN-SUFFIX,adn.taobao.com
+DOMAIN-SUFFIX,ad.taobao.com
+DOMAIN-SUFFIX,analy.alipay.com
+
+# ── 京东广告 ────────────────────────────────────────────────
+DOMAIN-SUFFIX,adg.jd.com
+DOMAIN-SUFFIX,union.jd.com
+
+# ── 网易广告 ────────────────────────────────────────────────
+DOMAIN-SUFFIX,oadv.163.com
+DOMAIN-SUFFIX,analytics.163.com
+
+# ── 通用移动广告 SDK ─────────────────────────────────────────
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,amap.com.track
-DOMAIN-KEYWORD,admarvel
-DOMAIN-KEYWORD,adsmogo
 DOMAIN-SUFFIX,mintegral.com
 DOMAIN-SUFFIX,mobvista.com
-DOMAIN-SUFFIX,mopub.com
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,chartboost.com
 DOMAIN-SUFFIX,vungle.com
-
-# 隐私追踪 / 统计分析（第三方）─────────────────────
 DOMAIN-SUFFIX,appbrain.com
+DOMAIN-SUFFIX,adcolony.com
+DOMAIN-SUFFIX,ironsrc.com
+
+# ── 国际隐私追踪 / 分析平台 ─────────────────────────────────
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,segment.io
@@ -83,5 +116,16 @@ DOMAIN-SUFFIX,segment.com
 DOMAIN-SUFFIX,heapanalytics.com
 DOMAIN-SUFFIX,kissmetrics.com
 DOMAIN-SUFFIX,fullstory.com
-DOMAIN-SUFFIX,loggly.com
 DOMAIN-SUFFIX,clarity.ms
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+
+# ── iOS / macOS 系统广告（Apple 自营广告以外）───────────────
+DOMAIN-SUFFIX,adservice.google.com
+
+# ── 常见国内垃圾推送 / 骚扰域名 ────────────────────────────
+DOMAIN-KEYWORD,admarvel
+DOMAIN-KEYWORD,adsmogo
+DOMAIN-KEYWORD,adsdk
+DOMAIN-KEYWORD,mobads

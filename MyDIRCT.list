@@ -3,27 +3,24 @@
 # 仓库：https://github.com/jksy963/Mylist
 # 格式：Clash classical
 # 更新：2026-04-16
-# 说明：原 Stock.list 已合并至本文件，Stock.list 废弃
-#       yaml 中 stock_direct 规则集和 📈 证券行情 代理组同步移除
 # ============================================================
 
 # ══════════════════════════════════════════════════════════════
 # 一、证券 / 行情直连
-#     所有国内券商及行情数据必须直连，走代理会增加延迟
 # ══════════════════════════════════════════════════════════════
 
 # ── 交易所 & 监管机构 ─────────────────────────────────────────
-DOMAIN-SUFFIX,sse.com.cn          # 上海证券交易所
-DOMAIN-SUFFIX,szse.cn             # 深圳证券交易所
-DOMAIN-SUFFIX,shfe.com.cn         # 上海期货交易所
-DOMAIN-SUFFIX,dce.com.cn          # 大连商品交易所
-DOMAIN-SUFFIX,czce.com.cn         # 郑州商品交易所
-DOMAIN-SUFFIX,cffex.com.cn        # 中国金融期货交易所
-DOMAIN-SUFFIX,sge.com.cn          # 上海黄金交易所
-DOMAIN-SUFFIX,neeq.com.cn         # 全国股转系统（新三板）
-DOMAIN-SUFFIX,csrc.gov.cn         # 中国证监会
-DOMAIN-SUFFIX,cfmmc.com.cn        # 中国期货市场监控中心
-DOMAIN-SUFFIX,chinamoney.com.cn   # 中国外汇交易中心
+DOMAIN-SUFFIX,sse.com.cn
+DOMAIN-SUFFIX,szse.cn
+DOMAIN-SUFFIX,shfe.com.cn
+DOMAIN-SUFFIX,dce.com.cn
+DOMAIN-SUFFIX,czce.com.cn
+DOMAIN-SUFFIX,cffex.com.cn
+DOMAIN-SUFFIX,sge.com.cn
+DOMAIN-SUFFIX,neeq.com.cn
+DOMAIN-SUFFIX,csrc.gov.cn
+DOMAIN-SUFFIX,cfmmc.com.cn
+DOMAIN-SUFFIX,chinamoney.com.cn
 
 # ── 华泰证券 · 涨乐财富通 ────────────────────────────────────
 DOMAIN-SUFFIX,htsc.com.cn
@@ -56,7 +53,7 @@ DOMAIN-SUFFIX,csci.com.cn
 # ── 招商证券 ─────────────────────────────────────────────────
 DOMAIN-SUFFIX,cmschina.com
 
-# ── 招商银行（注意：cmbchina.com 是招商银行，非招商证券）────
+# ── 招商银行 ─────────────────────────────────────────────────
 DOMAIN-SUFFIX,cmbchina.com
 
 # ── 中国平安 · 平安证券 ──────────────────────────────────────
@@ -111,17 +108,16 @@ DOMAIN-SUFFIX,xueqiu.com
 DOMAIN-SUFFIX,xqimg.com
 DOMAIN-SUFFIX,jisilu.cn
 DOMAIN-SUFFIX,lixinger.com
-DOMAIN-SUFFIX,joinquant.com       # 聚宽量化回测
-DOMAIN-SUFFIX,uqer.io             # 优矿量化
-DOMAIN-SUFFIX,gw.com.cn           # 大智慧
-DOMAIN-SUFFIX,dzh.com             # 大智慧
-DOMAIN-SUFFIX,tdx.com.cn          # 通达信
+DOMAIN-SUFFIX,joinquant.com
+DOMAIN-SUFFIX,uqer.io
+DOMAIN-SUFFIX,gw.com.cn
+DOMAIN-SUFFIX,dzh.com
+DOMAIN-SUFFIX,tdx.com.cn
 
 # ══════════════════════════════════════════════════════════════
-# 二、抖音 / 字节跳动 CDN（直连保障视频、直播流畅）
+# 二、抖音 / 字节跳动 CDN
 # ══════════════════════════════════════════════════════════════
 
-# 视频 / 图片 CDN
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,douyinpic.com
@@ -131,15 +127,11 @@ DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,toutiaoimg.com
 DOMAIN-SUFFIX,toutiaostatic.com
 DOMAIN-SUFFIX,ixigua.com
-
-# 字节跳动基础服务
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,amemv.com
-
-# CDN / 对象存储 / 基础设施
 DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcengineapi.com
 DOMAIN-SUFFIX,volcanoengine.com
@@ -150,17 +142,16 @@ DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bdurl.net
 DOMAIN-SUFFIX,ztvol.com
-
-# 抖音电商
 DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,douyinec.com
 DOMAIN-SUFFIX,douyinseller.com
 DOMAIN-SUFFIX,douyinecommerce.com
 
 # ══════════════════════════════════════════════════════════════
-# 三、小米 / 米家智能家居（IoT 直连保障低延迟）
-# 注：tracking.miui.com / log.miui.com 遥测域名在 Block.list 拦截
+# 三、小米 / 米家 IoT
+# 注：tracking.miui.com 等遥测域名在 Block.list 拦截
 # ══════════════════════════════════════════════════════════════
+
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,micloud.xiaomi.net
@@ -178,6 +169,7 @@ DOMAIN-SUFFIX,ai.xiaomi.com
 # ══════════════════════════════════════════════════════════════
 # 四、迅雷下载加速
 # ══════════════════════════════════════════════════════════════
+
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
@@ -188,18 +180,32 @@ DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,p2cdn.com
 
 # ══════════════════════════════════════════════════════════════
-# 五、Emby & 国内媒体服务
+# 五、Emby & 媒体服务
 # ══════════════════════════════════════════════════════════════
+
 DOMAIN-SUFFIX,micu.hk
 
 # ══════════════════════════════════════════════════════════════
-# 六、创维电视 IPTV 内容 CDN
-# 注：bytelog.skysrt.com（遥测）在 Block.list 中拦截
+# 六、创维 IPTV 内容 CDN
+# 注：bytelog.skysrt.com 遥测在 Block.list 拦截
 # ══════════════════════════════════════════════════════════════
+
 DOMAIN-SUFFIX,gitv.tv
 DOMAIN-SUFFIX,skysrt.com
 
 # ══════════════════════════════════════════════════════════════
-# 七、其他国内服务（日志分析发现）
+# 七、百度网盘（本地代理域名需直连）
+# 注：localhost.pan.baidu.com 已加入 fake-ip-filter，
+#     此处补充网盘 CDN 域名确保上传下载直连
 # ══════════════════════════════════════════════════════════════
-DOMAIN-SUFFIX,yunxish.com         # 国内云服务 API
+
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,baidupan.com
+DOMAIN-SUFFIX,pan.baidu.com
+
+# ══════════════════════════════════════════════════════════════
+# 八、日志发现的国内服务
+# ══════════════════════════════════════════════════════════════
+
+DOMAIN-SUFFIX,yunxish.com
+DOMAIN-SUFFIX,kafan.cn

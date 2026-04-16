@@ -2,7 +2,7 @@
 # Block.list — 广告、追踪、遥测拦截规则
 # 仓库：https://github.com/jksy963/Mylist
 # 格式：Clash classical（DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD）
-# 更新：2026-04-14
+# 更新：2026-04-16
 # ============================================================
 # 锐捷路由器上报端口
 IP-CIDR,120.35.11.138/32,no-resolve

@@ -4,7 +4,8 @@
 # 格式：Clash classical（DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD）
 # 更新：2026-04-14
 # ============================================================
-
+# 锐捷路由器上报端口
+IP-CIDR,120.35.11.138/32,no-resolve
 # ── 日志分析发现的可疑 / 恶意域名 ──────────────────────────
 DOMAIN,www.c0o1itlio0.com
 DOMAIN,www.w7l0a.top

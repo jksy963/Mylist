@@ -1,22 +1,21 @@
 # ============================================================
 # Block.list — 广告、追踪、遥测拦截规则
 # 仓库：https://github.com/jksy963/Mylist
-# 格式：Clash classical（DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD）
+# 格式：Clash classical
 # 更新：2026-04-16
 # ============================================================
-# 锐捷路由器上报端口
-IP-CIDR,120.35.11.138/32,no-resolve
-# ── 日志分析发现的可疑 / 恶意域名 ──────────────────────────
+
+# ── 日志发现的可疑 / 恶意域名 ───────────────────────────────
 DOMAIN,www.c0o1itlio0.com
 DOMAIN,www.w7l0a.top
 
 # ── 创维电视遥测（不影响 IPTV 播放）────────────────────────
 DOMAIN-SUFFIX,bytelog.skysrt.com
 
-# ── 国家电网软件更新（wpsupdate.sgcc.com.cn 持续请求噪音）──
+# ── 国家电网 WPS 更新（持续产生连接噪音）───────────────────
 DOMAIN-SUFFIX,sgcc.com.cn
 
-# ── 新浪旧版内网 API（解析到内网 IP 无法访问）───────────────
+# ── 新浪旧版内网 API ─────────────────────────────────────────
 DOMAIN,int.dpool.sina.com.cn
 
 # ── 小米 MIUI 广告与追踪 ────────────────────────────────────
@@ -57,7 +56,7 @@ DOMAIN-SUFFIX,tracking.vivo.com.cn
 DOMAIN-SUFFIX,sdkconfig.ad.vivo.com.cn
 DOMAIN-SUFFIX,logservice.vivo.com.cn
 
-# ── 百度广告追踪（非搜索核心域名）──────────────────────────
+# ── 百度广告追踪 ────────────────────────────────────────────
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,j.baidu.com
@@ -69,12 +68,12 @@ DOMAIN-SUFFIX,click.baidu.com
 DOMAIN-SUFFIX,sclick.baidu.com
 DOMAIN-SUFFIX,union.baidu.com
 
-# ── 腾讯广告追踪（非 QQ/微信核心）──────────────────────────
+# ── 腾讯广告追踪 ────────────────────────────────────────────
 DOMAIN-SUFFIX,adq.qq.com
 DOMAIN-SUFFIX,ams.woa.com
 DOMAIN-SUFFIX,gdt.qq.com
 
-# ── 字节跳动 / 抖音广告埋点（不含正常功能域名）────────────
+# ── 字节跳动广告埋点（不含正常功能域名）────────────────────
 DOMAIN-SUFFIX,ad.snssdk.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,adv.snssdk.com
@@ -82,7 +81,7 @@ DOMAIN-SUFFIX,log-collect.pangolin.snssdk.com
 DOMAIN-SUFFIX,pgc-ad.toutiao.com
 DOMAIN-SUFFIX,mon.snssdk.com
 
-# ── 阿里巴巴广告追踪 ────────────────────────────────────────
+# ── 阿里广告追踪 ────────────────────────────────────────────
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,adn.taobao.com
@@ -121,11 +120,9 @@ DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googleadservices.com
-
-# ── iOS / macOS 系统广告（Apple 自营广告以外）───────────────
 DOMAIN-SUFFIX,adservice.google.com
 
-# ── 常见国内垃圾推送 / 骚扰域名 ────────────────────────────
+# ── 关键字匹配（高命中率广告 SDK）──────────────────────────
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,adsmogo
 DOMAIN-KEYWORD,adsdk

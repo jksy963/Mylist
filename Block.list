@@ -68,29 +68,7 @@ DOMAIN-SUFFIX,click.baidu.com
 DOMAIN-SUFFIX,sclick.baidu.com
 DOMAIN-SUFFIX,union.baidu.com
 
-# ── 腾讯广告追踪 ────────────────────────────────────────────
-DOMAIN-SUFFIX,adq.qq.com
-DOMAIN-SUFFIX,ams.woa.com
-DOMAIN-SUFFIX,gdt.qq.com
 
-# ── 字节跳动广告埋点（不含正常功能域名）────────────────────
-DOMAIN-SUFFIX,ad.snssdk.com
-DOMAIN-SUFFIX,ad.toutiao.com
-DOMAIN-SUFFIX,adv.snssdk.com
-DOMAIN-SUFFIX,log-collect.pangolin.snssdk.com
-DOMAIN-SUFFIX,pgc-ad.toutiao.com
-DOMAIN-SUFFIX,mon.snssdk.com
-
-# ── 阿里广告追踪 ────────────────────────────────────────────
-DOMAIN-SUFFIX,tanx.com
-DOMAIN-SUFFIX,alimama.com
-DOMAIN-SUFFIX,adn.taobao.com
-DOMAIN-SUFFIX,ad.taobao.com
-DOMAIN-SUFFIX,analy.alipay.com
-
-# ── 京东广告 ────────────────────────────────────────────────
-DOMAIN-SUFFIX,adg.jd.com
-DOMAIN-SUFFIX,union.jd.com
 
 # ── 网易广告 ────────────────────────────────────────────────
 DOMAIN-SUFFIX,oadv.163.com
@@ -122,8 +100,4 @@ DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,adservice.google.com
 
-# ── 关键字匹配（高命中率广告 SDK）──────────────────────────
-DOMAIN-KEYWORD,admarvel
-DOMAIN-KEYWORD,adsmogo
-DOMAIN-KEYWORD,adsdk
-DOMAIN-KEYWORD,mobads
+

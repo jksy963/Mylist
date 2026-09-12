@@ -1,40 +1,12 @@
-# ============================================================
-# MyDIRCT.list V2.1 FINAL
-# ============================================================
-# 自定义精准直连规则
-#
-# 配套规则：
-#   WeChat.list     → 微信
-#   Baidu.list      → 百度
-#   NetEase.list    → 网易
-#   Unbreak.list    → 防误杀
-#   ASN.China.list  → 中国 ASN / IP
-#
-# 本文件原则：
-#   1. 不复制以上 5 个规则
-#   2. 不加入 IP-ASN / IP-CIDR
-#   3. 不使用大型集团泛域名
-#   4. 保留个人特殊直连
-#   5. 保留证券、抖音、小米、迅雷、Emby、IPTV
-#   6. 国内常用 App 精准直连
-#
-# V2.1 FINAL
-# 更新：2026-09-05
-# ============================================================
+# MyDIRCT.list V2.3 — 精简精准直连规则
+# 配套：WeChat / Baidu / NetEase / Unbreak / ASN.China
+# 原则：仅保留确有直连价值的规则；避免覆盖 TikTok / Emby / 海外服务
+# 更新：2026-09-12
 
-
-# ============================================================
-# 0. 特殊直连
-# ============================================================
-
+# 0. 已验证必须直连
 DOMAIN-SUFFIX,appstorrent.ru
 
-
-# ============================================================
 # 1. 证券 / 行情 / 金融数据
-# ============================================================
-
-# 交易所
 DOMAIN-SUFFIX,sse.com.cn
 DOMAIN-SUFFIX,szse.cn
 DOMAIN-SUFFIX,shfe.com.cn
@@ -43,94 +15,50 @@ DOMAIN-SUFFIX,czce.com.cn
 DOMAIN-SUFFIX,cffex.com.cn
 DOMAIN-SUFFIX,sge.com.cn
 DOMAIN-SUFFIX,neeq.com.cn
-
-# 金融信息
 DOMAIN-SUFFIX,chinamoney.com.cn
 DOMAIN-SUFFIX,cfmmc.com.cn
-
-# 监管
 DOMAIN-SUFFIX,csrc.gov.cn
 
-# 华泰证券 / 涨乐
+# 券商 / 交易
 DOMAIN-SUFFIX,htsc.com.cn
 DOMAIN-SUFFIX,hithink.com
 DOMAIN-SUFFIX,hscloud.cn
+DOMAIN-SUFFIX,gjzq.com.cn
+DOMAIN-SUFFIX,gtja.com
+DOMAIN-SUFFIX,citic.com
+DOMAIN-SUFFIX,citics.com
+DOMAIN-SUFFIX,cs.ecitic.com
+DOMAIN-SUFFIX,csci.com.cn
+DOMAIN-SUFFIX,cmschina.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,pingan.com.cn
+DOMAIN-SUFFIX,pa18.com
+DOMAIN-SUFFIX,swsc.com.cn
+DOMAIN-SUFFIX,swhysc.com
+DOMAIN-SUFFIX,gf.com.cn
+DOMAIN-SUFFIX,gfzq.com.cn
+DOMAIN-SUFFIX,haitong.com
+DOMAIN-SUFFIX,htsec.com
+DOMAIN-SUFFIX,xyzq.com.cn
+DOMAIN-SUFFIX,xzsec.com
+DOMAIN-SUFFIX,cicc.com.cn
+DOMAIN-SUFFIX,ciccfinance.com
+DOMAIN-SUFFIX,foundersc.com
+DOMAIN-SUFFIX,chinastock.com.cn
+DOMAIN-SUFFIX,guosen.com.cn
+DOMAIN-SUFFIX,essence.com.cn
+DOMAIN-SUFFIX,ebscn.com
+DOMAIN-SUFFIX,hazq.com
+DOMAIN-SUFFIX,zts.com.cn
 
-# 东方财富 / 天天基金 / Choice
+# 行情 / 投资 / 量化
 DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,em.com.cn
 DOMAIN-SUFFIX,dfcfw.com
 DOMAIN-SUFFIX,choicedata.com.cn
-
-# 同花顺
 DOMAIN-SUFFIX,10jqka.com.cn
 DOMAIN-SUFFIX,ths.com.cn
 DOMAIN-SUFFIX,stockstar.com
-
-# 国泰君安
-DOMAIN-SUFFIX,gjzq.com.cn
-DOMAIN-SUFFIX,gtja.com
-
-# 中信证券
-DOMAIN-SUFFIX,citic.com
-DOMAIN-SUFFIX,citics.com
-DOMAIN-SUFFIX,cs.ecitic.com
-
-# 中信建投
-DOMAIN-SUFFIX,csci.com.cn
-
-# 招商证券
-DOMAIN-SUFFIX,cmschina.com
-
-# 招商银行
-DOMAIN-SUFFIX,cmbchina.com
-
-# 平安 / 平安证券
-DOMAIN-SUFFIX,pingan.com.cn
-DOMAIN-SUFFIX,pa18.com
-
-# 申万宏源
-DOMAIN-SUFFIX,swsc.com.cn
-DOMAIN-SUFFIX,swhysc.com
-
-# 广发证券
-DOMAIN-SUFFIX,gf.com.cn
-DOMAIN-SUFFIX,gfzq.com.cn
-
-# 海通证券
-DOMAIN-SUFFIX,haitong.com
-DOMAIN-SUFFIX,htsec.com
-
-# 兴业证券
-DOMAIN-SUFFIX,xyzq.com.cn
-DOMAIN-SUFFIX,xzsec.com
-
-# 中金
-DOMAIN-SUFFIX,cicc.com.cn
-DOMAIN-SUFFIX,ciccfinance.com
-
-# 方正证券
-DOMAIN-SUFFIX,foundersc.com
-
-# 银河证券
-DOMAIN-SUFFIX,chinastock.com.cn
-
-# 国信证券
-DOMAIN-SUFFIX,guosen.com.cn
-
-# 安信证券
-DOMAIN-SUFFIX,essence.com.cn
-
-# 光大证券
-DOMAIN-SUFFIX,ebscn.com
-
-# 华安证券
-DOMAIN-SUFFIX,hazq.com
-
-# 中泰证券
-DOMAIN-SUFFIX,zts.com.cn
-
-# 行情 / 投资数据
 DOMAIN-SUFFIX,wind.com.cn
 DOMAIN-SUFFIX,windquant.com
 DOMAIN-SUFFIX,xueqiu.com
@@ -143,180 +71,7 @@ DOMAIN-SUFFIX,gw.com.cn
 DOMAIN-SUFFIX,dzh.com
 DOMAIN-SUFFIX,tdx.com.cn
 
-
-# ============================================================
-# 2. 抖音 / 字节跳动
-# ============================================================
-
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,byteacctimg.com
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,toutiaoimg.com
-DOMAIN-SUFFIX,toutiaostatic.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,bytedance.net
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,volccdn.com
-DOMAIN-SUFFIX,volcengineapi.com
-DOMAIN-SUFFIX,volcanoengine.com
-DOMAIN-SUFFIX,bytetos.com
-DOMAIN-SUFFIX,bytedns.net
-DOMAIN-SUFFIX,bytednsdoc.com
-DOMAIN-SUFFIX,bytedanceapi.com
-DOMAIN-SUFFIX,bytegoofy.com
-DOMAIN-SUFFIX,ztvol.com
-DOMAIN-SUFFIX,ecombdapi.com
-DOMAIN-SUFFIX,douyinec.com
-DOMAIN-SUFFIX,douyinseller.com
-DOMAIN-SUFFIX,douyinecommerce.com
-
-
-# ============================================================
-# 3. 小米 / 米家 / MIoT
-# ============================================================
-
-DOMAIN-SUFFIX,mi.com
-DOMAIN-SUFFIX,xiaomi.com
-DOMAIN-SUFFIX,micloud.xiaomi.net
-DOMAIN-SUFFIX,mihome.app
-DOMAIN-SUFFIX,miwifi.com
-DOMAIN-SUFFIX,mi-img.com
-DOMAIN-SUFFIX,miui.com
-DOMAIN-SUFFIX,xiaomiyoupin.com
-DOMAIN-SUFFIX,miot-spec.org
-DOMAIN-SUFFIX,miot-store.com
-DOMAIN-SUFFIX,miotcdn.com
-DOMAIN-SUFFIX,miotglobal.com
-DOMAIN-SUFFIX,ai.xiaomi.com
-
-
-
-# ============================================================
-# 4. 阿里 / 淘宝 / 天猫 / 支付宝 / 高德
-# ============================================================
-
-# 淘宝
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,taobao.net
-
-# 天猫
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,tmall.hk
-
-# 支付宝
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipay.cn
-DOMAIN-SUFFIX,alipayobjects.com
-
-# 高德
-DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,autonavi.com
-
-# 阿里 CDN
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,aliyuncdn.com
-
-
-
-# ============================================================
-# 5. 京东
-# ============================================================
-
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,jd.cn
-DOMAIN-SUFFIX,jdcloud.com
-DOMAIN-SUFFIX,jdcloud-oss.com
-DOMAIN-SUFFIX,jdpay.com
-DOMAIN-SUFFIX,360buyimg.com
-DOMAIN-SUFFIX,360buy.com
-
-
-# ============================================================
-# 6. 美团 / 大众点评
-# ============================================================
-
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,meituan.net
-DOMAIN-SUFFIX,meituan.com.cn
-DOMAIN-SUFFIX,dianping.com
-DOMAIN-SUFFIX,dianpingoa.com
-
-
-# ============================================================
-# 7. 哔哩哔哩
-# ============================================================
-
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,hdslb.org
-
-
-# ============================================================
-# 8. 微博 / 新浪
-# ============================================================
-
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibo.cn
-DOMAIN-SUFFIX,weibocdn.com
-DOMAIN-SUFFIX,sina.com.cn
-DOMAIN-SUFFIX,sinaimg.cn
-DOMAIN-SUFFIX,sinajs.cn
-
-
-# ============================================================
-# 9. 小红书
-# ============================================================
-
-DOMAIN-SUFFIX,xiaohongshu.com
-DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xhslink.com
-
-
-# ============================================================
-# 10. 知乎
-# ============================================================
-
-DOMAIN-SUFFIX,zhihu.com
-DOMAIN-SUFFIX,zhimg.com
-DOMAIN-SUFFIX,zhihu.com.cn
-
-
-# ============================================================
-# 11. 中国铁路 / 出行
-# ============================================================
-
-DOMAIN-SUFFIX,12306.cn
-DOMAIN-SUFFIX,12306.com
-
-# 携程
-DOMAIN-SUFFIX,ctrip.com
-DOMAIN-SUFFIX,ctrip.com.cn
-DOMAIN-SUFFIX,ctripcorp.com
-
-# 去哪儿
-DOMAIN-SUFFIX,qunar.com
-DOMAIN-SUFFIX,qunarzz.com
-
-# 滴滴
-DOMAIN-SUFFIX,didichuxing.com
-
-
-# ============================================================
-# 12. 迅雷 / 下载
-# ============================================================
-
+# 2. 迅雷 / 下载
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
@@ -326,171 +81,15 @@ DOMAIN-SUFFIX,kanimg.com
 DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,p2cdn.com
 
-
-# ============================================================
-# 13. 国内在线视频
-# ============================================================
-
-# 爱奇艺
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,iqiyipic.com.cn
-DOMAIN-SUFFIX,qiyi.com
-
-# 优酷
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,youku.tv
-DOMAIN-SUFFIX,youku.com.cn
-DOMAIN-SUFFIX,tudou.com
-
-# 腾讯视频
-DOMAIN-SUFFIX,v.qq.com
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,gtimg.cn
-
-
-# ============================================================
-# 14. 国内音乐
-# ============================================================
-
-# QQ音乐
-DOMAIN-SUFFIX,y.qq.com
-
-# 酷狗
-DOMAIN-SUFFIX,kugou.com
-DOMAIN-SUFFIX,kugou.net
-
-# 酷我
-DOMAIN-SUFFIX,kuwo.cn
-DOMAIN-SUFFIX,kuwo.com
-
-
-# ============================================================
-# 15. 拼多多 / 唯品会 / 苏宁
-# ============================================================
-
-# 拼多多
-DOMAIN-SUFFIX,pinduoduo.com
-DOMAIN-SUFFIX,pinduoduo.com.cn
-DOMAIN-SUFFIX,pddpic.com
-DOMAIN-SUFFIX,pddcdn.com
-
-# 唯品会
-DOMAIN-SUFFIX,vip.com
-DOMAIN-SUFFIX,vipshop.com
-
-# 苏宁
-DOMAIN-SUFFIX,suning.com
-DOMAIN-SUFFIX,suning.cn
-
-
-# ============================================================
-# 16. 饿了么
-# ============================================================
-
-DOMAIN-SUFFIX,ele.me
-DOMAIN-SUFFIX,eleme.cn
-
-
-# ============================================================
-# 17. 国内办公
-# ============================================================
-
-# 钉钉
-DOMAIN-SUFFIX,dingtalk.com
-DOMAIN-SUFFIX,dingtalk.net
-DOMAIN-SUFFIX,dingtalkapps.com
-
-# 飞书
-DOMAIN-SUFFIX,feishu.cn
-DOMAIN-SUFFIX,feishu.com
-
-
-# ============================================================
-# 18. 国内 CDN / 对象存储精选
-# ============================================================
-
-# 腾讯云 CDN
-DOMAIN-SUFFIX,cdn-go.cn
-DOMAIN-SUFFIX,cdntip.com
-
-# 又拍云
-DOMAIN-SUFFIX,upyun.com
-DOMAIN-SUFFIX,upaiyun.com
-
-# 七牛云
-DOMAIN-SUFFIX,qiniu.com
-DOMAIN-SUFFIX,qiniudn.com
-DOMAIN-SUFFIX,qbox.me
-
-# 华为云
-DOMAIN-SUFFIX,huaweicloud.com
-
-
-# ============================================================
-# 19. 国内代码托管
-# ============================================================
-
-# Gitee
-DOMAIN-SUFFIX,gitee.com
-DOMAIN-SUFFIX,gitee.io
-
-# Coding
-DOMAIN-SUFFIX,coding.net
-
-
-# ============================================================
-# 20. 国内社区 / 内容
-# ============================================================
-
-# 豆瓣
-DOMAIN-SUFFIX,douban.com
-DOMAIN-SUFFIX,doubanio.com
-
-# 什么值得买
-DOMAIN-SUFFIX,smzdm.com
-
-# 少数派
-DOMAIN-SUFFIX,sspai.com
-
-# V2EX
-DOMAIN-SUFFIX,v2ex.com
-
-# IT之家
-DOMAIN-SUFFIX,ithome.com
-
-
-# ============================================================
-# 21. 创维 IPTV
-# ============================================================
-
-DOMAIN-SUFFIX,gitv.tv
-DOMAIN-SUFFIX,skysrt.com
-
-
-
-# ============================================================
-# 22. Emby / 个人媒体
-# ============================================================
-
-DOMAIN-SUFFIX,micu.hk
-
-
-# ============================================================
-# 23. 百度网盘个人强制直连
-# ============================================================
-
-# 虽然 Baidu.list 已经覆盖百度生态，
-# 这里保留个人明确要求的核心网盘域名。
-
+# 3. 百度网盘补充
 DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,baidupan.com
 DOMAIN-SUFFIX,pan.baidu.com
 
+# 4. 创维 IPTV
+DOMAIN-SUFFIX,gitv.tv
+DOMAIN-SUFFIX,skysrt.com
 
-# ============================================================
-# 24. 个人日志发现服务
-# ============================================================
-
+# 5. 日志确认服务
 DOMAIN-SUFFIX,yunxish.com
 DOMAIN-SUFFIX,kafan.cn

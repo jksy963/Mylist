@@ -1,103 +1,80 @@
-# ============================================================
-# Block.list — 广告、追踪、遥测拦截规则
-# 仓库：https://github.com/jksy963/Mylist
-# 格式：Clash classical
-# 更新：2026-04-16
-# ============================================================
+# ==========================================
+# Block.list V2.0
+# 自定义广告 / 遥测 / 可疑域名补充拦截
+# 配合 AdRules 使用
+# ==========================================
 
-# ── 日志发现的可疑 / 恶意域名 ───────────────────────────────
+# ===== 1. 日志确认的可疑域名 =====
+
 DOMAIN,www.c0o1itlio0.com
 DOMAIN,www.w7l0a.top
 
-# ── 创维电视遥测（不影响 IPTV 播放）────────────────────────
+
+# ===== 2. 创维 / 酷开遥测 =====
+
 DOMAIN-SUFFIX,bytelog.skysrt.com
 
-# ── 国家电网 WPS 更新（持续产生连接噪音）───────────────────
-DOMAIN-SUFFIX,sgcc.com.cn
 
-# ── 新浪旧版内网 API ─────────────────────────────────────────
+# ===== 3. 新浪旧接口 =====
+
 DOMAIN,int.dpool.sina.com.cn
 
-# ── 小米 MIUI 广告与追踪 ────────────────────────────────────
+
+# ===== 4. 小米广告 / 遥测 =====
+
 DOMAIN-SUFFIX,ad.xiaomi.com
-DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
-DOMAIN-SUFFIX,data.mistat.xiaomi.com
-DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,data.mistat.intl.xiaomi.com
 DOMAIN-SUFFIX,tracking.miui.com
-DOMAIN-SUFFIX,new.tracking.miui.com
 DOMAIN-SUFFIX,log.miui.com
-DOMAIN-SUFFIX,logservice.miui.com
-DOMAIN-SUFFIX,log2.miui.com
 DOMAIN-SUFFIX,miui-analytics.xiaomi.com
-DOMAIN-SUFFIX,ad1.xiaomi.com
-DOMAIN-SUFFIX,ad.mi.com
-DOMAIN-SUFFIX,mis.dedicated.xiaomi.com
-DOMAIN-SUFFIX,report.log.miui.com
-DOMAIN-SUFFIX,dig.miui.com
-DOMAIN-SUFFIX,stlog.data.xiaomi.com
+DOMAIN-SUFFIX,ad.miui.com
+DOMAIN-SUFFIX,api.ad.xiaomi.com
+DOMAIN-SUFFIX,stat.xiaomi.com
+DOMAIN-SUFFIX,analytics.miui.com
 
-# ── 华为广告与遥测 ──────────────────────────────────────────
-DOMAIN-SUFFIX,logservice.hicloud.com
-DOMAIN-SUFFIX,log.hicloud.com
-DOMAIN-SUFFIX,metrics.data.hicloud.com
+
+# ===== 5. 华为广告 / 遥测 =====
+
 DOMAIN-SUFFIX,ads.huawei.com
-DOMAIN-SUFFIX,adg.hicloud.com
-DOMAIN-SUFFIX,adroi.cn
+DOMAIN,logservice.hicloud.com
+DOMAIN,metrics.data.hicloud.com
+DOMAIN-SUFFIX,metrics1.data.hicloud.com
+DOMAIN-SUFFIX,metrics2.data.hicloud.com
 
-# ── OPPO / OnePlus / realme 广告追踪 ────────────────────────
-DOMAIN-SUFFIX,ck.coloros.com
-DOMAIN-SUFFIX,log.push.oppomobile.com
-DOMAIN-SUFFIX,bdp.oppomobile.com
+
+# ===== 6. OPPO / OnePlus / realme =====
+
+DOMAIN-SUFFIX,ads.heytap.com
 DOMAIN-SUFFIX,analytics.coloros.com
 DOMAIN-SUFFIX,track.heytap.com
+DOMAIN-SUFFIX,adsfs.heytap.com
+DOMAIN-SUFFIX,logservice.heytap.com
 
-# ── vivo 广告追踪 ────────────────────────────────────────────
+
+# ===== 7. vivo =====
+
 DOMAIN-SUFFIX,tracking.vivo.com.cn
-DOMAIN-SUFFIX,sdkconfig.ad.vivo.com.cn
-DOMAIN-SUFFIX,logservice.vivo.com.cn
+DOMAIN,sdkconfig.ad.vivo.com.cn
+DOMAIN-SUFFIX,ads.vivo.com.cn
 
-# ── 百度广告追踪 ────────────────────────────────────────────
+
+# ===== 8. 百度广告 / 统计 =====
+
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
-DOMAIN-SUFFIX,j.baidu.com
-DOMAIN-SUFFIX,hm.baidu.com
-DOMAIN-SUFFIX,hmma.baidu.com
-DOMAIN-SUFFIX,pv.baidu.com
-DOMAIN-SUFFIX,nsclick.baidu.com
-DOMAIN-SUFFIX,click.baidu.com
-DOMAIN-SUFFIX,sclick.baidu.com
-DOMAIN-SUFFIX,union.baidu.com
+DOMAIN,j.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN,pv.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,click.baidu.com
+DOMAIN,sclick.baidu.com
+DOMAIN,union.baidu.com
 
 
+# ===== 9. 网易广告 / 统计 =====
 
-# ── 网易广告 ────────────────────────────────────────────────
-DOMAIN-SUFFIX,oadv.163.com
-DOMAIN-SUFFIX,analytics.163.com
-
-# ── 通用移动广告 SDK ─────────────────────────────────────────
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,mintegral.com
-DOMAIN-SUFFIX,mobvista.com
-DOMAIN-SUFFIX,inmobi.com
-DOMAIN-SUFFIX,chartboost.com
-DOMAIN-SUFFIX,vungle.com
-DOMAIN-SUFFIX,appbrain.com
-DOMAIN-SUFFIX,adcolony.com
-DOMAIN-SUFFIX,ironsrc.com
-
-# ── 国际隐私追踪 / 分析平台 ─────────────────────────────────
-DOMAIN-SUFFIX,hotjar.com
-DOMAIN-SUFFIX,mixpanel.com
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,segment.com
-DOMAIN-SUFFIX,heapanalytics.com
-DOMAIN-SUFFIX,kissmetrics.com
-DOMAIN-SUFFIX,fullstory.com
-DOMAIN-SUFFIX,clarity.ms
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,adservice.google.com
-
-
+DOMAIN,oadv.163.com
+DOMAIN,analytics.163.com

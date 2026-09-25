@@ -1,4 +1,34 @@
+# MyPROXY.list
+# 说明：仅收录必须经过代理、且没有专属策略组覆盖的站点
+# 策略由 QX [filter_remote] 中的 force-policy=法外狂徒 统一指定
 
-# 今日热榜App分流
+# =========================================================
+# 1. 明确需要代理的海外站点
+# =========================================================
+
+DOMAIN-SUFFIX,qichiyu.com
+DOMAIN-SUFFIX,bitsdujour.com
+
+# =========================================================
+# 2. 今日热榜
+# 全局代理正常、分流模式异常时，优先保证官方域名走代理
+# =========================================================
+
 DOMAIN-SUFFIX,tophub.today
 DOMAIN-SUFFIX,tophub.xyz
+
+# =========================================================
+# 3. 小米国际 / 海外米家
+# 仅保留国际服务相关域名，避免扩大代理范围
+# =========================================================
+
+DOMAIN-SUFFIX,io.mi.com
+DOMAIN-SUFFIX,glb.io.mi.com
+DOMAIN-SUFFIX,sgp.io.mi.com
+DOMAIN-SUFFIX,us.io.mi.com
+DOMAIN-SUFFIX,tw.io.mi.com
+DOMAIN-SUFFIX,eu.io.mi.com
+
+# MIoT 国际服务
+DOMAIN-SUFFIX,miot-spec.org
+DOMAIN-SUFFIX,mijia.tech

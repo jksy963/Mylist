@@ -5,6 +5,7 @@
 
 # 0. 已验证必须直连
 DOMAIN-SUFFIX,appstorrent.ru
+DOMAIN-SUFFIX,beup.tannel.asia
 
 # 1. 证券 / 行情 / 金融数据
 DOMAIN-SUFFIX,sse.com.cn

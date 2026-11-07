@@ -4,6 +4,16 @@
 # 配合 AdRules 使用
 # ==========================================
 
+# 红果短剧
+DOMAIN-KEYWORD,ad.qznovelvod
+DOMAIN-KEYWORD,applog
+DOMAIN-KEYWORD,dig.bdurl
+DOMAIN-KEYWORD,dig.zjurl
+DOMAIN-KEYWORD,snssdk.com
+DOMAIN-SUFFIX,ndcpp.com
+AND,((DOMAIN-KEYWORD,fqnovel),(DOMAIN-KEYWORD,misc))
+AND,((DOMAIN-KEYWORD,zijieapi),(DOMAIN-KEYWORD,ads))
+
 # ===== 1. 日志确认的可疑域名 =====
 
 DOMAIN,www.c0o1itlio0.com

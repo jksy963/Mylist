@@ -15,6 +15,10 @@ DOMAIN-SUFFIX,filebin.net
 DOMAIN-SUFFIX,sharrr.com
 DOMAIN-SUFFIX,buzzheavier.com
 
+# mcafee杀毒
+DOMAIN-SUFFIX,mcafee.com
+DOMAIN-SUFFIX,mcafee.cn
+
 # 1. 证券 / 行情 / 金融数据
 DOMAIN-SUFFIX,sse.com.cn
 DOMAIN-SUFFIX,szse.cn

@@ -15,6 +15,9 @@ DOMAIN-SUFFIX,filebin.net
 DOMAIN-SUFFIX,sharrr.com
 DOMAIN-SUFFIX,buzzheavier.com
 
+# Yodlee 金融数据服务（如需直连可加入）
+DOMAIN-SUFFIX,yodlee.com
+
 # mcafee杀毒
 DOMAIN-SUFFIX,mcafee.com
 DOMAIN-SUFFIX,mcafee.cn

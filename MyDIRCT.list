@@ -1,13 +1,19 @@
 # MyDIRCT.list V2.3 — 精简精准直连规则
 # 配套：WeChat / Baidu / NetEase / Unbreak / ASN.China
 # 原则：仅保留确有直连价值的规则；避免覆盖 TikTok / Emby / 海外服务
-# 更新：2026-11-1
+# 更新：2026-11-15
 
 # 0. 已验证必须直连
 DOMAIN-SUFFIX,appstorrent.ru
 DOMAIN-SUFFIX,beup.tannel.asia
 DOMAIN-SUFFIX,aihao.hk
 DOMAIN-SUFFIX,hk.hishis.cn
+
+# 直连网盘
+DOMAIN-SUFFIX,wormhole.app
+DOMAIN-SUFFIX,filebin.net
+DOMAIN-SUFFIX,sharrr.com
+DOMAIN-SUFFIX,buzzheavier.com
 
 # 1. 证券 / 行情 / 金融数据
 DOMAIN-SUFFIX,sse.com.cn
